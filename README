@@ -1,0 +1,6 @@
+## Part 1
+
+1. Connect table up to mocked API in Concerns/concernApi.ts & use that instead of dummy data
+  - Mocked API has delay and may error
+2. Connect the resolve button to the mocked resolve API, remove the row when the API request is resolved
+3. Add conditional styling to make severity text bold and red when severity is severe
